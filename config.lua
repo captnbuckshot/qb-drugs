@@ -1,5 +1,5 @@
 Config = Config or {}
-Config.MinimumDrugSalePolice = 2
+Config.MinimumDrugSalePolice = 0
 
 Config.Products = {
     [1] = {
@@ -110,40 +110,40 @@ Config.CornerSellingDrugsList = {
 
 Config.DrugsPrice = {
     ["weed_white-widow"] = {
-        min = 15,
-        max = 24,
+        min = 75,
+        max = 250,
     },
     ["weed_og-kush"] = {
-        min = 15,
-        max = 28,
+        min = 95,
+        max = 275,
     },
     ["weed_skunk"] = {
-        min = 15,
-        max = 31,
+        min = 60,
+        max = 150,
     },
     ["weed_amnesia"] = {
-        min = 18,
-        max = 34,
+        min = 75,
+        max = 200,
     },
     ["weed_purple-haze"] = {
-        min = 18,
-        max = 37,
+        min = 75,
+        max = 250,
     },
     ["weed_ak47"] = {
-        min = 18,
-        max = 40,
+        min = 75,
+        max = 250,
     },
     ["crack_baggy"] = {
-        min = 18,
-        max = 34,
+        min = 80,
+        max = 300,
     },
     ["cokebaggy"] = {
-        min = 18,
-        max = 37,
+        min = 150,
+        max = 500,
     },
     ["meth"] = {
-        min = 18,
-        max = 40,
+        min = 90,
+        max = 275,
     },
 }
 
